@@ -668,7 +668,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg");
+  /* background: url("../img/about-bg.jpg"); */
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -684,7 +684,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: rgba(13, 20, 41, 0.95);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1648,4 +1648,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   color: #f82249;
   font-size:5em;
+}
+
+.about-svg {
+  width:500px;
 }
