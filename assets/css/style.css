@@ -1638,6 +1638,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .credits {
+  margin-top: 25px;
   text-align: center;
   font-size: 13px;
   color: #ddd;
